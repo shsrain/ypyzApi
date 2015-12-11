@@ -108,8 +108,8 @@
  {
    function sx139000($to,$msg,$time=null)
    {
-     $name='yunhe';
-     $pwd='yunhe123';
+     $name='';
+     $pwd='';
 
      $url="http://www.139000.com/send/gsend.asp?name=$name&pwd=$pwd&dst=$to&msg=$msg&time=$time";
      $fp = fopen($url,"r");
