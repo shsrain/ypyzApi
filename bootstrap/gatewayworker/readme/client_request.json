@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "TCP应用通信协议",
+    "description": "基于json格式的tcp应用通信请求协议",
+    "type": "object",
+    "properties": {
+        "host": {
+            "description": "请求的主机名",
+            "type": "string"
+        },
+        "uri": {
+            "description": "请求的资源地址",
+            "type": "string"
+        },
+        "param": {
+            "description": "请求资源的参数",
+            "type": "object"
+        },
+        "method": {
+            "description": "资源请求方式，包括get,post,update,delete",
+            "type": "string"
+        },
+        "agent": {
+            "description": "客户端的一些信息",
+            "type": "string"
+        },
+        "accept": {
+            "description": "客户端允许接收什么类型的数据,包括text/html,text/json,text/xml",
+            "type": "string"
+        },
+        "message": {
+            "description": "客户端提交的数据",
+            "type": "object"
+        },
+    },
+    "required": ["uri", "param", "method"]
+}

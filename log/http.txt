@@ -1,0 +1,309 @@
+time：2015-10-23 09:46:11
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:16
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:16
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:16
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:16
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:17
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:17
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:17
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:17
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:17
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:18
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:18
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:18
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:18
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:18
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:18
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:19
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:19
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:19
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:19
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:19
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+time：2015-10-23 09:46:20
+---start---
+GET /inquiry.php HTTP/1.1
+HOST: localhost:10023
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+ACCEPT-ENCODING: gzip, deflate
+COOKIE: PHPSESSID=jfqcbtor0vdibeen4ioadoedc3; DokuWiki=sm03k351fm71hce1m7knv5mj24
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+
+
+---end---
+

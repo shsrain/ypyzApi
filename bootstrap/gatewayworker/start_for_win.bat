@@ -1,0 +1,2 @@
+php start_web.php start_websocket_gateway.php start_text_gateway.php start_businessworker.php
+pause

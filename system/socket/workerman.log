@@ -1,0 +1,1385 @@
+2015-09-17 16:09:11 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-09-17 16:09:11 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-09-17 16:41:02 client_id:46	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse(NULL)
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint(NULL)
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson(NULL)
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(37): Webmozart\Json\JsonDecoder->decode(NULL)
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(147): Event::onConnect(46)
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson(NULL)
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(37): Webmozart\Json\JsonDecoder->decode(NULL)
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(147): Event::onConnect(46)
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 16:41:02 client_id:47	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse(NULL)
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint(NULL)
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson(NULL)
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(37): Webmozart\Json\JsonDecoder->decode(NULL)
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(147): Event::onConnect(47)
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson(NULL)
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(37): Webmozart\Json\JsonDecoder->decode(NULL)
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(147): Event::onConnect(47)
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 16:41:07 client_id:47	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse(NULL)
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint(NULL)
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson(NULL)
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(64): Webmozart\Json\JsonDecoder->decode(NULL)
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(153): Event::onClose(47)
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson(NULL)
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(64): Webmozart\Json\JsonDecoder->decode(NULL)
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(153): Event::onClose(47)
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:32:29 client_id:87	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(87, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(87, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:32:49 client_id:87	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(87, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(87, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:34:35 client_id:87	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(87, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(87, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:34:53 client_id:87	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(87, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(87, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:35:56 client_id:91	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(91, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(91, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:36:35 client_id:91	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(91, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(91, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:36:36 client_id:91	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(91, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(91, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:39:06 client_id:93	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(93, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(93, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:39:22 client_id:93	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(93, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(93, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:40:25 client_id:96	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(96, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(96, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:40:57 client_id:96	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(96, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(96, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:40:57 client_id:96	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(96, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(50): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(96, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:42:33 client_id:98	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:42:33 client_id:97	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:42:49 client_id:98	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:42:49 client_id:97	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:43:52 client_id:98	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:43:52 client_id:97	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:44:30 client_id:98	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:44:30 client_id:97	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:44:37 client_id:98	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(98, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:44:37 client_id:97	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(97, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:51:27 client_id:108	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(108, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(108, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:51:27 client_id:107	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(107, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(107, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:51:45 client_id:108	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(108, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(108, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:51:45 client_id:107	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(107, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(107, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:52:48 client_id:108	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(108, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(108, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:52:48 client_id:107	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(107, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(107, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:53:32 client_id:110	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(110, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(110, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 17:53:32 client_id:110	client_ip:127.0.0.1
+exception 'Seld\JsonLint\ParsingException' with message 'Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['' in E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php:332
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(229): Seld\JsonLint\JsonParser->parseError('Parse error on ...', Array)
+#1 E:\Project\youpaiyunzhi\api\vendor\jsonlint\vendor\seld\jsonlint\src\Seld\JsonLint\JsonParser.php(125): Seld\JsonLint\JsonParser->parse('PING')
+#2 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(296): Seld\JsonLint\JsonParser->lint('PING')
+#3 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#4 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#5 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(110, 'PING')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#11 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#12 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#13 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#14 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#15 {main}
+
+Next exception 'Webmozart\Json\DecodingFailedException' with message 'The JSON data could not be decoded: Parse error on line 1:
+PING
+^
+Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '['.' in E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php:299
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\vendor\json\src\JsonDecoder.php(107): Webmozart\Json\JsonDecoder->decodeJson('PING')
+#1 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(51): Webmozart\Json\JsonDecoder->decode('PING')
+#2 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(110, 'PING')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#7 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#8 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#10 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#11 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#12 {main}
+2015-09-17 18:01:29 client_id:118	client_ip:127.0.0.1
+exception 'InvalidArgumentException' with message 'Identifier "request" is not defined.' in E:\Project\youpaiyunzhi\api\system\container\Pimple\src\Pimple\Container.php:95
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(63): Pimple\Container->offsetGet('request')
+#1 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(118, 'PING')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#7 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#8 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#10 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#11 {main}
+2015-09-17 18:01:48 client_id:118	client_ip:127.0.0.1
+exception 'InvalidArgumentException' with message 'Identifier "request" is not defined.' in E:\Project\youpaiyunzhi\api\system\container\Pimple\src\Pimple\Container.php:95
+Stack trace:
+#0 E:\Project\youpaiyunzhi\api\bootstrap\socket\Event.php(63): Pimple\Container->offsetGet('request')
+#1 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(150): Event::onMessage(118, 'PING')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Connection\TcpConnection.php(477): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Events\Select.php(253): call_user_func_array(Array, Array)
+#6 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(719): Workerman\Events\Select->loop()
+#7 E:\Project\youpaiyunzhi\api\system\socket\GatewayWorker\BusinessWorker.php(86): Workerman\Worker->run()
+#8 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(410): GatewayWorker\BusinessWorker->run()
+#9 E:\Project\youpaiyunzhi\api\system\socket\Workerman\Worker.php(327): Workerman\Worker::runAllWorkers()
+#10 E:\Project\youpaiyunzhi\api\bootstrap\socket\start_businessworker.php(43): Workerman\Worker::runAll()
+#11 {main}

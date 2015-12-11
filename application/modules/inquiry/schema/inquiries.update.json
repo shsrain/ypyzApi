@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "发起问诊",
+    "description": "用户发起一个问诊咨询",
+    "type": "object",
+    "properties": {
+        "public_userid": {
+            "description": "发布问诊的用户",
+            "type": "string"
+        },
+        "patient_id": {
+            "description": "关注人的ID，即为哪个关注者问诊",
+            "type": "string"
+        },
+        "description": {
+            "description": "病情及症状描述",
+            "type": "string"
+        },
+        "casehistory_id": {
+            "description": "关联病人病历casehistory_id，默认值0:不关联病历，其他值：关联外键ID",
+            "type": "string"
+        },
+        "picture": {
+            "description": "附加图片附件数据。最多三张图，也可不填。",
+            "type": "array"
+        }
+    },
+    "required": ["public_userid", "patient_id", "description"]
+}

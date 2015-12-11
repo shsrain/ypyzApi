@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "针对某一条问诊提出咨询",
+    "description": "用户发起一个问诊咨询",
+    "type": "object",
+    "properties": {
+        "inquiry_id": {
+            "description": "所属的问诊信息ID",
+            "type": "integer"
+        },
+        "by_userid": {
+            "description": "发送者用户ID",
+            "type": "string"
+        },
+        "message": {
+            "description": "发送的消息",
+            "type": "string"
+        }
+    },
+    "required": ["inquiry_id", "by_userid", "message"]
+}

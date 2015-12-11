@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "TCP应用通信协议",
+    "description": "基于json格式的tcp应用通信响应协议",
+    "type": "object",
+    "properties": {
+        "code": {
+            "description": "状态码，通过提供一个状态码来说明所请求的资源情况",
+            "type": "string"
+        },
+        "message": {
+            "description": "状态信息，通过提供一个文字说明来解释对应的状态码信息",
+            "type": "string"
+        },
+        "method": {
+            "description": "响应方式，包括push，response",
+            "type": "string"
+        },
+        "uri": {
+            "description": "由推送push产生的数据URI",
+            "type": "string"
+        },
+        "type": {
+            "description": "回应的数据类型,包括text/html,text/json,text/xml",
+            "type": "string"
+        },
+        "cotent": {
+            "description": "服务器响应的具体数据",
+            "type": "object"
+        },
+    },
+    "required": []
+}

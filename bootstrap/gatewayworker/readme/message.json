@@ -1,0 +1,80 @@
+// push
+{
+  "type":"ping",
+}
+
+// request
+{
+  "type":"pong",
+}
+
+// request
+{
+  "uri": "message",
+  "method": "post",
+  "message": {
+    "question_id":2,
+    "form_userid":34,
+    "to_userid":21,
+    "content":"hello"
+  },
+}
+
+// push
+{
+  "code": 110120,
+  "message":"您有新的短消息",
+  "method":"push",
+  "uri":"message/alert",
+  "content":{
+    "to_userid":21,
+    "total_count":103,
+    "data":[
+      {
+        "question_id":2,
+        "total_count":3,
+        "form_userid":34,
+      },
+      {
+        "question_id":5,
+        "total_count":2,
+        "form_userid":7,
+      },
+      {
+        "question_id":15,
+        "total_count":4,
+        "form_userid":4,
+      }
+    ],
+  }
+}
+
+// request
+{
+  "uri": "chat",
+  "method": "get",
+  "param": {
+      "status": "firsttime",
+      "userid": 23
+  },
+}
+
+// request
+{
+  "uri": "chat",
+  "method": "get",
+  "param": {
+      "status": "starting",
+      "userid": 23
+  },
+}
+
+// request
+{
+  "uri": "chat",
+  "method": "get",
+  "param": {
+      "status": "ending",
+      "userid": 23
+  },
+}
